@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+            
+       
+    <script src="validation.js"></script>
+</head>
+<body>
+    <h2>Registration Form</h2>
+        <body style="color:black; background-color:silver;font-size:20px">
+        <section class="container-fluid bg">
+                <section class="row justify-content-left">
+<form class="form-container" name="regform" action="homepage.html" onsubmit="return validate()">
+        <div class="form-group">
+            <label for="email">First Name:</label>
+            <input id="firstname" type="text" class="form-control" name="firstname"  placeholder="Enter First Name">
+            <span id="validatename" style="color:brown;"></span>
+                 
+        </div>
+
+        <div class="form-group">
+            <label for="email">Middle Name:</label>
+            <input id="middleName" type="text" class="form-control" name="name"  placeholder="Enter Middle Name">
+        </div>
+        <div class="form-group">
+            <label for="email">Last Name:</label>
+            <input id="lastName" type="text" class="form-control" name="name"  placeholder="Enter Last Name">
+            <span id="validatelastname" style="color:brown;"></span>
+        </div>  
+        <div class="form-group">
+            <label for="email">Mobile:</label>
+            <input id="mobile" type="text" class="form-control" name="mobile"  placeholder="Enter Mobile">
+            <span id="validatemobile" style="color:brown;"></span>
+        </div>
+        <div class="form-group">
+            <label for="email">Email address:</label>
+            <input id="email" type="email" class="form-control" id="email" placeholder="Enter email">
+            <span id="validateEmail" style="color:brown;"></span>
+        </div>
+        <div class="form-group">
+            <label for="email">Password:</label>
+            <input id="password" type="password" class="form-control" id="pwd" placeholder="Enter password">
+            <span id="validatePassword" style="color:brown;"></span>
+        </div>  
+        <div class="form-group">
+            <label for="email">Confirm Password:</label>
+            <input id="confirmpassword" type="password" class="form-control" id="pwd" placeholder="confirm password"><br>
+            <span id="validateConfirmPassword" style="color:brown;"></span>
+        </div>    
+
+              <button type="submit" class="btn btn-warning">Submit</button>
+            
+      </form>
+      </section>
+      </section>
+      
+    </form>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+      #update{
+          display: none;
+      }
+    </style>
+</head>
+<body>
+    <section>
+            <body style="color:black; background-color:silver;font-size:20px">
+         <table border="1" id="displaytable">
+             <tr>
+                 <th>Id</th>
+                 <th>Name</th>
+                 <th>Email</th>
+                 <th>Class</th>
+                 <th>Year</th>
+                 <th>City</th>
+                 <th>Country</th>
+                 
+             </tr>
+
+         </table>
+        </section>
+        <section>
+                <div class="col-sm-5"
+                style="border: 1px solid; border-radius: 5px; padding-bottom: 10px; padding-top: 10px; padding-left: 20px; padding-right: 20px">
+            
+            <form name="studentform" action="">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="">StudentId</label>
+                            <td><input type="text" name="studentId"></td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Student Name</label>
+                            <td><input type="text" name="studentname"></td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Email</label>
+                            <td><input type="text" name="email"></td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Class</label>
+                            <td><input type="text" name="class"></td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Enrolment Year</label>
+                            <td><input type="text" name="enrolyear"></td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">City</label>
+                            <td><input type="text" name="city"></td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Country</label>
+                            <td><input type="text" name="country"></td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" id="save" value="Save" onclick="saveData()">
+                        <input type="button" value="Update" id="update"></td>
+                        <td><input type="reset" value="Clear"></td>
+                    </tr>
+                </table>
+            </form>
+        </section>
+
+        <script src="userdashboard.js"></script>
+</body>
+</html>
